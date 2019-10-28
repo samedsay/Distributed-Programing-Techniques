@@ -23,8 +23,7 @@ public class MapFileReading {
 				counter++;
 			}
 
-			System.out
-					.println(array[0] + " + " + array[1] + " + " + array[2] + " = " + (array[0] + array[1] + array[2]));
+			System.out.println(array[0] + " + " + array[1] + " + " + array[2] + " = " + (array[0] + array[1] + array[2]));
 		}
 	}
 
