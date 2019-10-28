@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <display-name>Servlets</display-name>
+    <description>Sample servlet</description>
+
+    <servlet>
+        <servlet-name>BasicCalculator</servlet-name>
+        <description>BasicCalculator</description>
+        <servlet-class>BasicCalculator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BasicCalculator</servlet-name>
+        <url-pattern>/BasicCalculator</url-pattern>
+    </servlet-mapping>
+
+</web-app>
